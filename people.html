@@ -1,0 +1,21 @@
+---
+layout: default
+title: People Involved in the Chan Zuckerberg Initiative
+---
+
+<h2>People ei</h2>
+
+<!-- People -->
+{% assign people = site.data.people %}
+{% assign people = people | sort:"Nombre" %}
+
+<!-- Document -->
+
+{% for person in people %}
+
+<ul>
+<li><strong>{{ person.Nombre }}</strong> ({{ person.Organizacion }}, {{ person.Rol }})</li>
+</ul>
+
+{% endfor %}
+
