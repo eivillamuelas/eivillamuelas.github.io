@@ -80,7 +80,7 @@ nav{
 
 @-moz-document url-prefix() {
     .info-box {
-        background-color: rgba(202, 200, 248, 0);
+        background-color: rgba(255, 163, 194, 0.568);
     }
 }
 
@@ -115,32 +115,33 @@ a:hover + .info-box {
 }
 
 header{
-    padding: 20% 30% 10% 20%;
+    padding: 5% 30% 5% 20%;
 }
 
 @media screen and (max-width: 950px) {
-
     header{
-        padding: 20% 30% 30% 20%;
+        padding: 10% 30% 20% 20%;
     }
+    
 }
 
 h1{
     font-family: 'Montserrat', sans-serif;   
     font-weight: 900;
-    
     font-size: 3em;
 }
 
 h2{
     font-family: 'Montserrat', sans-serif;   
     font-weight: 400;
+    font-size: large;
 }
 
 
 main{  
     display: flex;
     flex-flow: wrap;
+    justify-content:center;
     width: 100%;
     margin-top: 30px;
     padding: 10px 0;
@@ -150,50 +151,67 @@ main{
 }
 
 
+
+.section {
+    width: 30%;
+    margin: 0 20px;
+}
+
+@media screen and (max-width: 950px) {
+
+    main{  
+        display: inline-block;
+    }
+
+    .section {
+        width: 100%;
+        margin: 0 0;
+    }
+}
+
 .collapsible {
     background-color: rgba(119, 119, 119, 0);
     backdrop-filter: blur(10px);
-    cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
     font-size: 30px;
-    color: rgba(0, 0, 0, 0.39);
-  }
+    color: rgb(0, 0, 0);
+}
 
 
   
-  .active, .collapsible:hover {
+.collapsible:hover {
     background-color: rgba(119, 119, 119, 0.199);
     color: rgb(0, 0, 0);
-  }
+}
   
-  .collapsible:after {
+.collapsible:after {
     font-family: "Font Awesome 5 Free";
     font-size: 1em;
     content: '\f107';
-    color: rgba(0, 0, 0, 0.39);
+    color: rgba(0, 0, 0, 0);
     font-weight: bold;
     float: right;
     margin-left: 5px;
-  }
+}
   
-  .active:after {
+.active:after {
     font-family: "Font Awesome 5 Free";
     content: "\f106";
-    color: rgb(0, 0, 0);
-  }
+    color: rgba(0, 0, 0, 0);
+}
   
-  .content {
+.content {
     padding: 0 18px;
-    max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     backdrop-filter: blur(10px);
-    display: flex;
-  }
+}
+
+
 
 .content-text{
     width: 40%;
@@ -205,6 +223,10 @@ main{
     width: fit-content;
     font-family: 'Montserrat', sans-serif;   
     font-weight: 400;
+}
+
+.work-title-descripcion{
+    font-size: 18px;
 }
 
 .content-img{
