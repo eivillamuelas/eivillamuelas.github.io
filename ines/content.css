@@ -159,6 +159,14 @@ main{
 
 @media screen and (max-width: 950px) {
 
+    h1{
+    font-size: 1.8em;
+    }
+    
+    h2{
+        font-size: medium;
+    }
+
     main{  
         display: inline-block;
     }
