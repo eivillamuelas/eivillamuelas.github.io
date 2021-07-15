@@ -25,7 +25,7 @@ nav{
 
 @-moz-document url-prefix() {
     nav {
-        background-color: rgb(202, 200, 248);
+        background-color: rgba(202, 200, 248, 0);
     }
 }
 
@@ -80,7 +80,7 @@ nav{
 
 @-moz-document url-prefix() {
     .info-box {
-        background-color: rgb(202, 200, 248);
+        background-color: rgba(202, 200, 248, 0);
     }
 }
 
