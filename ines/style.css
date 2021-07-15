@@ -59,7 +59,7 @@ nav{
 }
   
 #navegacion a:hover {
-    background-color: #ddd;
+    background-color: rgba(119, 119, 119, 0.199);
     color: black;
 }
   
@@ -192,6 +192,9 @@ main{
 .work-title{
     display: inline;
     width: fit-content;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 400;
+    font-size: large;
 }
 
 
