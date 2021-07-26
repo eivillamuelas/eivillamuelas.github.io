@@ -21,7 +21,7 @@
 </head>
 <body>
 
-    <video src="video/particulas - Soriano.mp4" autoplay loop playsinline muted></video>
+    <video id="video" src="video/b3.mp4" autoplay loop playsinline muted></video>
 
     <nav>
         <div id="logo"><a href="index.html"><img src="img/logoBlack.png" alt=""></a></div>
@@ -58,6 +58,13 @@
             <div class="info-box">
                 <h3>Comunicación</h3>
                 <p class="info-box-descripcion">Desarrollamos tu imagen de marca y/o colección para tu campaña de comunicación junto con una estrategia de marketing digital para que tu proyecto sea un éxito.</p>
+            </div>
+
+
+            <a href="blog.html">Blog</a>
+            <div class="info-box">
+                <h3>Blog</h3>
+                <p class="info-box-descripcion">...</p>
             </div>
 
 
@@ -130,5 +137,9 @@
 
 
 <script src="js/collapsible.js"></script> 
-<script src="js/hoverImcg.js"></script> 
+
+<script>
+    document.getElementById('video').currentTime = 120;
+</script> 
+
 </html>

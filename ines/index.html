@@ -21,7 +21,7 @@
 </head>
 <body>
 
-    <video src="video/particulas - Soriano.mp4" autoplay loop playsinline muted></video>
+    <video src="video/b1.mp4" autoplay loop playsinline muted></video>
 
     <nav>
         <div id="logo"><a href="index.html"><img src="img/logoBlack.png" alt=""></a></div>
@@ -33,6 +33,7 @@
             </a>
 
             <a href="index.html">Inicio</a>
+
             <a href="consultoria.html">Consultoría</a>
             <div class="info-box">
                 <h3>Consultoría de moda</h3>
@@ -61,6 +62,13 @@
             </div>
 
 
+            <a href="blog.html">Blog</a>
+            <div class="info-box">
+                <h3>Blog</h3>
+                <p class="info-box-descripcion">...</p>
+            </div>
+
+
             <a href="about.html">Sobre nosotros</a>
             <div class="info-box">
                 <h3>Sobre nosotros</h3>
@@ -84,45 +92,51 @@
         <h2>Diseño, producción y comunicación para marcas de moda a todos los niveles</h2>
     </header>
 
+    
 
     <main>
 
-        <button class="collapsible" url-img=""><h3 class="work-title">Proyecto 1</h3> </button>
-        <div class="content">
-            <div class="content-img"><img class="work-img" src="https://images.adsttc.com/media/images/60e4/64dd/b085/8571/6a04/f7f5/newsletter/01-off-white-paris-copyright-benoit-florencon.jpg?1625580835" alt=""></div>
-            <div class="content-text">
-                <p>Info proyecto</p>        
-                <p class="descripcion">Descripción: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
+        <div id="index">
+
+            <button class="index-button" url-img="" onclick="location.href='consultoria.html';">
+                <h3 class="index-title">Consultoría de moda</h3>
+                <p class="index-descripcion">Te ayudamos a descubrir qué es lo que mejor funciona para tu marca, en qué puede estar fallando y prevenimos errores que puedan ocurrir desde el diseño hasta la comunicación.</p> 
+            </button>
+
+            <button class="index-button" url-img="" onclick="location.href='diseno.html';">
+                <h3 class="index-title">Diseño de prendas</h3>
+                <p class="index-descripcion">Diseñamos desde cero prendas que representen los ideales de tu marca, acordes a tu target. Un proceso del que formarás parte a cada paso, basado en tus gustos y preferencias.</p> 
+            </button>
+            
+            <button class="index-button" url-img="" onclick="location.href='produccion.html';">
+                <h3 class="index-title">Producción textil</h3>
+                <p class="index-descripcion">Contactamos con nuestros proveedores y talleres de confianza para llevar a cabo tu proyecto, encargándonos de todo el proceso y consultando siempre contigo las decisiones a tomar.</p> 
+            </button>
+            
+            <button class="index-button" url-img="" onclick="location.href='comunicacion.html';">
+                <h3 class="index-title">Comunicación</h3>
+                <p class="index-descripcion">Desarrollamos tu imagen de marca y/o colección para tu campaña de comunicación junto con una estrategia de marketing digital para que tu proyecto sea un éxito.</p> 
+            </button>
+
 
         </div>
 
 
-        <button class="collapsible" url-img=""><h3 class="work-title">Proyecto 2</h3> </button>
-        <div class="content">
-            <div class="content-img"><img class="work-img" src="https://www.allcitycanvas.com/wp-content/uploads/2019/12/virgil-abloh-rinde-homenaje-a-da-vinci-horizontal.jpg" alt=""></div>
-            <div class="content-text">
-                <p>Info proyecto</p>        
-                <p class="descripcion">Descripción: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
+        <div id="about">
 
-       
-        </div>
+            <button class="about-button" url-img="" onclick="location.href='about.html';">
+                <h3 class="about-title">Sobre nosotros</h3>
+                <p class="about-descripcion">Te ayudamos a descubrir qué es lo que mejor funciona para tu marca, en qué puede estar fallando y prevenimos errores que puedan ocurrir desde el diseño hasta la comunicación.</p> 
+            </button>
 
-
-        <button class="collapsible" url-img=""><h3 class="work-title">Proyecto 3</h3> </button>
-        <div class="content">
-            <div class="content-img"><img class="work-img" src="https://www.metalocus.es/sites/default/files/styles/mopis_news_gallery_deskop/public/metalocus_amo_abloh_off-white-miami_04.jpg?itok=0lSzoYY-" alt=""></div>
-            <div class="content-text">
-                <p>Info proyecto</p>        
-                <p class="descripcion">Descripción: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-
-       
         </div>
 
 
     </main>
+
+    <!-- Esto es otro comentario -->
+
+
 
     <footer>
 
@@ -163,5 +177,4 @@
 
 
 <script src="js/collapsible.js"></script> 
-<script src="js/hoverImcg.js"></script> 
 </html>

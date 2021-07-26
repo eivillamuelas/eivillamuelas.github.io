@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(224, 224, 224);
     color: rgb(0, 0, 0);
 }
 
@@ -76,11 +76,12 @@ nav{
     width: 50%;
     padding: 14px 25px;
     backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
 
 @-moz-document url-prefix() {
     .info-box {
-        background-color: rgba(255, 163, 194, 0.568);
+        background-color: rgba(255, 255, 255, 0.274);
     }
 }
 
@@ -145,66 +146,56 @@ main{
     width: 100%;
     margin-top: 30px;
     padding: 10px 0;
-    row-gap: 10px;
+    row-gap: 30px;
     font-family: 'Montserrat', sans-serif;   
     font-weight: 400;
 }
 
 
-
-.section {
-    width: 30%;
-    margin: 0 20px;
-}
-
-@media screen and (max-width: 950px) {
-
-    h1{
-    font-size: 1.8em;
-    }
-    
-    h2{
-        font-size: medium;
-    }
-
-    main{  
-        display: inline-block;
-    }
-
-    .section {
-        width: 100%;
-        margin: 0 0 70px;
-    }
-}
-
 .collapsible {
     background-color: rgba(119, 119, 119, 0);
     backdrop-filter: blur(10px);
+    cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
     font-size: 30px;
-    color: rgb(0, 0, 0);
-}
+    color: rgba(0, 0, 0, 0.39);
+  }
 
 
   
-.collapsible:hover {
+  .active, .collapsible:hover {
     background-color: rgba(119, 119, 119, 0.199);
     color: rgb(0, 0, 0);
-}
+  }
   
-
-.content {
+  .collapsible:after {
+    font-family: "Font Awesome 5 Free";
+    font-size: 1em;
+    content: '\f107';
+    color: rgba(0, 0, 0, 0.39);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f106";
+    color: rgb(0, 0, 0);
+  }
+  
+  .content {
     padding: 0 18px;
+    max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     backdrop-filter: blur(10px);
-}
-
-
+    display: flex;
+  }
 
 .content-text{
     width: 40%;
@@ -242,6 +233,72 @@ main{
         width: 100%;
         margin-left: none;
     }
+}
+
+
+
+.section {
+    width: 30%;
+    margin: 0 20px;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 950px) {
+
+    h1{
+    font-size: 1.8em;
+    }
+    
+    h2{
+        font-size: medium;
+    }
+
+    main{  
+        display: inline-block;
+    }
+
+    .section {
+        width: 100%;
+        margin: 0 0 70px;
+    }
+}
+
+.section-collapsible {
+    background-color: rgba(119, 119, 119, 0);
+    backdrop-filter: blur(10px);
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px 20px 0 0;
+}
+
+
+  
+.section-collapsible:hover {
+    background-color: rgba(119, 119, 119, 0.199);
+    color: rgb(0, 0, 0);
+}
+  
+
+.section-content {
+    padding: 0 18px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    backdrop-filter: blur(10px);
+}
+
+#main-blog{
+    padding: 0 10%;
+}
+
+
+.blog-img{
+    width: 100%;
 }
   
 

@@ -21,7 +21,7 @@
 </head>
 <body>
 
-    <video src="video/particulas - Soriano.mp4" autoplay loop playsinline muted></video>
+    <video id="video" src="video/b3.mp4" autoplay loop playsinline muted></video>
 
     <nav>
         <div id="logo"><a href="index.html"><img src="img/logoBlack.png" alt=""></a></div>
@@ -61,6 +61,13 @@
             </div>
 
 
+            <a href="blog.html">Blog</a>
+            <div class="info-box">
+                <h3>Blog</h3>
+                <p class="info-box-descripcion">...</p>
+            </div>
+
+
             <a href="about.html">Sobre nosotros</a>
             <div class="info-box">
                 <h3>Sobre nosotros</h3>
@@ -88,10 +95,10 @@
     <main>
 
         <div class="section">
-            <button class="collapsible" url-img="">
+            <button class="section-collapsible" url-img="">
                 <h3 class="work-title">Patronaje</h3>
                 <p class="work-title-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </button>
-            <div class="content">
+            <div class="section-content">
                 <p>Estudio de medidas</p>
                 <p>Creación del patrón</p>         
                 
@@ -101,10 +108,10 @@
 
 
         <div class="section">
-            <button class="collapsible" url-img="">
+            <button class="section-collapsible" url-img="">
                 <h3 class="work-title">Elección de telas</h3>
                 <p class="work-title-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </button>
-            <div class="content">
+            <div class="section-content">
                 <p>Estudio de tejidos</p>
                 <p>Estudio de colores y estampados</p>
                 <p>Confección de la tela</p>
@@ -114,10 +121,10 @@
 
 
         <div class="section">
-            <button class="collapsible" url-img="">
+            <button class="section-collapsible" url-img="">
                 <h3 class="work-title">Elaboración de la ficha técnica</h3>
                 <p class="work-title-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  </button>
-            <div class="content">
+            <div class="section-content">
                 <p>Creación de la plantilla</p> 
                 <p>Parámetros generales</p>  
                 <p>Descripción del diseño</p>  
@@ -129,10 +136,10 @@
 
 
         <div class="section">
-            <button class="collapsible" url-img="">
+            <button class="section-collapsible" url-img="">
                 <h3 class="work-title">Accesorios</h3>
                 <p class="work-title-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  </button>
-            <div class="content">
+            <div class="section-content">
                 <p>Estudio de accesorios</p> 
                 <p>Diseño de accesorios</p>  
                 <p>Producción de accesorios</p>
@@ -143,10 +150,10 @@
 
 
         <div class="section">
-            <button class="collapsible" url-img="">
+            <button class="section-collapsible" url-img="">
                 <h3 class="work-title">Personalización del producto</h3>
                 <p class="work-title-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  </button>
-            <div class="content">
+            <div class="section-content">
                 <p>Impresión digital</p> 
                 <p>Vinilado</p>  
                 <p>Serigrafía</p>  
@@ -199,5 +206,9 @@
 
 
 <script src="js/collapsible.js"></script> 
-<script src="js/hoverImcg.js"></script> 
+
+<script>
+    document.getElementById('video').currentTime = 20;
+</script> 
+
 </html>

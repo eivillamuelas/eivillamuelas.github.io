@@ -21,7 +21,7 @@
 </head>
 <body>
 
-    <video src="video/particulas - Soriano.mp4" autoplay loop playsinline muted></video>
+    <video id="video" src="video/b3.mp4" autoplay loop playsinline muted></video>
 
     <nav>
         <div id="logo"><a href="index.html"><img src="img/logoBlack.png" alt=""></a></div>
@@ -61,6 +61,13 @@
             </div>
 
 
+            <a href="blog.html">Blog</a>
+            <div class="info-box">
+                <h3>Blog</h3>
+                <p class="info-box-descripcion">...</p>
+            </div>
+
+
             <a href="about.html">Sobre nosotros</a>
             <div class="info-box">
                 <h3>Sobre nosotros</h3>
@@ -88,10 +95,10 @@
     <main>
 
         <div class="section">
-            <button class="collapsible" url-img="">
+            <button class="section-collapsible" url-img="">
                 <h3 class="work-title">Desarrollo de marca</h3>
                 <p class="work-title-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </button>
-            <div class="content">
+            <div class="section-content">
                 <p>Análisis de la situación</p>
                 <p>Análisis de tendecias</p>         
                 
@@ -101,10 +108,10 @@
 
 
         <div class="section">
-            <button class="collapsible" url-img="">
+            <button class="section-collapsible" url-img="">
                 <h3 class="work-title">Desarrollo de producto</h3>
                 <p class="work-title-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </button>
-            <div class="content">
+            <div class="section-content">
                 <p>Diseño de producto</p>
                 <p>Producción</p>
 
@@ -113,10 +120,10 @@
 
 
         <div class="section">
-            <button class="collapsible" url-img="">
+            <button class="section-collapsible" url-img="">
                 <h3 class="work-title">Comunicación</h3>
                 <p class="work-title-descripcion">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>  </button>
-            <div class="content">
+            <div class="section-content">
                 <p>Comunicación tangible</p> 
                 <p>Comunicación intangible</p> 
 
@@ -165,5 +172,9 @@
 
 
 <script src="js/collapsible.js"></script> 
-<script src="js/hoverImcg.js"></script> 
+
+<script>
+    document.getElementById('video').currentTime = 40;
+</script> 
+
 </html>
