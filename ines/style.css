@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(109, 109, 109);
     color: rgb(0, 0, 0);
 }
 
@@ -59,7 +59,7 @@ nav{
 }
   
 #navegacion a:hover {
-    background-color: rgba(119, 119, 119, 0.199);
+    background-color: rgba(255, 255, 255, 0.274);
     color: black;
 }
   
@@ -116,7 +116,7 @@ a:hover + .info-box {
 }
 
 header{
-    padding: 20% 30% 10% 20%;
+    padding: 20% 30% 20% 20%;
 }
 
 @media screen and (max-width: 950px) {
@@ -142,6 +142,7 @@ h2{
 main{  
     display: flex;
     flex-flow: wrap;
+    justify-content:center;
     width: 100%;
     margin-top: 30px;
     padding: 10px 0;
@@ -177,18 +178,18 @@ main{
 
     .index-button {
         width: 70%;
-        background-color: rgba(255, 255, 255, 0.432);
+        background-color: rgba(255, 255, 255, 0.274);
     }
 }
 
 @-moz-document url-prefix() {
     .index-button {
-        background-color: rgba(255, 255, 255, 0.411);
+        background-color: rgba(255, 255, 255, 0.274);
     }
 }
   
 .index-button:hover {
-    background-color: rgba(119, 119, 119, 0.199);
+    background-color: rgba(255, 255, 255, 0.555);
     color: rgb(0, 0, 0);
 }
   
@@ -209,7 +210,7 @@ main{
 @media screen and (max-width: 950px) {
 
     .index-title{
-        font-size: xx-large; 
+        font-size: xx-large;
     }
 
     .index-descripcion{
@@ -218,18 +219,19 @@ main{
 }
 
 
-#about{
+#about, #formulario{
     display: flex;
     flex-flow: wrap;
-    justify-content:center;
+    justify-content: center;
     row-gap: 30px;
     column-gap: 10%;
     padding-top: 10%;
+    width: 100%;
 }
 
 
 
-.about-button {
+.about-button, .form-button {
     background-color: rgba(119, 119, 119, 0);
     backdrop-filter: blur(10px);
     padding: 18px;
@@ -244,39 +246,102 @@ main{
 }
 
 .about-button:hover {
-    background-color: rgba(119, 119, 119, 0.199);
+    background-color: rgba(255, 255, 255, 0.555);
     color: rgb(0, 0, 0);
 }
 
 
 
 
-.about-title{
+.about-title, .form-title{
     display: inline;
     width: fit-content;
     font-family: 'Montserrat', sans-serif;   
     font-weight: 400;
 }
 
-.about-descripcion{
+.about-descripcion, .form-descripcion{
     font-size: 16px;
 }
 
 @media screen and (max-width: 950px) {
 
-    #about{
+    #about, #formulario{
         padding-top: 30%;
     }
 
-    .about-button {
-        background-color: rgba(255, 255, 255, 0.432);
+    .about-button, .form-button {
+        background-color: rgba(255, 255, 255, 0.274);
     }
 }
 
 @-moz-document url-prefix() {
-    .about-button {
-        background-color: rgba(255, 255, 255, 0.411);
+    .about-button, .form-button {
+        background-color: rgba(255, 255, 255, 0.274);
     }
+}
+
+#formulario{
+    max-width: 600px;
+}
+
+.form-box{
+    display: flex;
+    flex-flow: wrap;
+    row-gap: 20px;
+    column-gap: 10%;
+    padding: 40px 2%;
+    width: 100%;
+}
+
+.input-text{
+    font-size: 15px;
+}
+
+.input-info-m{
+    width: 40%;
+}
+
+@media screen and (max-width: 950px) {
+
+    .input-info-m{
+        width: 90%;
+    }
+
+}
+
+.input-field{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 400;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+
+.input-field-area{
+    width: 90%;
+    resize: vertical;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 400;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+
+.input-info-l{
+    width: 100%;
+}
+
+.submit-button{
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: 400;
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.671);
 }
   
 
@@ -330,4 +395,3 @@ footer a{
     }
 
 }
-
