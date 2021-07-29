@@ -189,7 +189,7 @@ main{
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: max-height padding 0.2s ease-out;
     backdrop-filter: blur(10px);
     display: flex;
   }
