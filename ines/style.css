@@ -205,6 +205,8 @@ main{
 
 .index-descripcion{
     font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 @media screen and (max-width: 950px) {
@@ -262,6 +264,8 @@ main{
 
 .about-descripcion, .form-descripcion{
     font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 @media screen and (max-width: 950px) {

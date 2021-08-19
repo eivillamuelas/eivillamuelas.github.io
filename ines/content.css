@@ -208,6 +208,8 @@ main{
 
 .work-title-descripcion{
     font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .a-title{
