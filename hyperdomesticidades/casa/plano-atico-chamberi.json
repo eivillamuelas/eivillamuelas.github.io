@@ -1,0 +1,392 @@
+{
+  "titulo": "Ático Neomadrid: Tradición y Tecnología",
+  "descripcion": "En el corazón del histórico barrio de Chamberí, este ático de 90m² representa una fusión perfecta entre la Madrid tradicional y la innovación contemporánea. Sus techos altos con vigas de madera centenaria dan carácter a un espacio abierto y luminoso donde habitan Ana, arquitecta especializada en rehabilitación sostenible, y Daniel, programador de sistemas domóticos. \n\n  La vivienda está distribuida en un amplio salón-comedor que se integra con la cocina a través de una barra de desayuno de madera reciclada, dos dormitorios (el principal con vestidor integrado y el secundario adaptado como oficina para teletrabajo) y un baño completo con materiales naturales. \n\n  El sistema domótico, desarrollado por Daniel, permite controlar mediante comandos de voz o aplicación la iluminación LED de bajo consumo, la temperatura zonificada, los estores y la seguridad. La eficiencia energética es evidente en cada rincón: la aerotermia regula la temperatura a través de suelo radiante, mientras que los electrodomésticos de clase A+++ reducen el consumo eléctrico que se complementa con la energía generada por los paneles solares instalados en la azotea comunitaria. \n\n  El balcón orientado al sur es el refugio verde de Ana, quien ha diseñado un ingenioso sistema vertical de cultivo urbano con riego automatizado donde crecen hierbas aromáticas y pequeñas hortalizas que abastecen parcialmente la cocina de temporada que tanto disfrutan preparar juntos los fines de semana. \n\n  Por las mañanas, el ritual incluye desayunar en el balcón mientras planifican el día, y por las tardes, el salón se convierte en espacio de creatividad donde desarrollan proyectos colaborativos que combinan sus especialidades.",
+  "planta": [
+    {
+      "nombre": "Muro exterior norte",
+      "tipo": "muro",
+      "poligono": [[0,0], [900,0], [900,20], [0,20]],
+      "color": "#444444"
+    },
+    {
+      "nombre": "Muro exterior este",
+      "tipo": "muro",
+      "poligono": [[880,20], [900,20], [900,600], [880,600]],
+      "color": "#444444"
+    },
+    {
+      "nombre": "Muro exterior sur",
+      "tipo": "muro",
+      "poligono": [[0,580], [900,580], [900,600], [0,600]],
+      "color": "#444444"
+    },
+    {
+      "nombre": "Muro exterior oeste",
+      "tipo": "muro",
+      "poligono": [[0,20], [20,20], [20,600], [0,600]],
+      "color": "#444444"
+    },
+    {
+      "nombre": "Muro divisorio cocina-salón",
+      "tipo": "muro",
+      "poligono": [[300,20], [320,20], [320,250], [300,250]],
+      "color": "#666666"
+    },
+    {
+      "nombre": "Muro divisorio baño",
+      "tipo": "muro",
+      "poligono": [[320,250], [500,250], [500,270], [320,270]],
+      "color": "#666666"
+    },
+    {
+      "nombre": "Muro divisorio dormitorio principal",
+      "tipo": "muro",
+      "poligono": [[500,250], [520,250], [520,580], [500,580]],
+      "color": "#666666"
+    },
+    {
+      "nombre": "Muro divisorio dormitorio-oficina",
+      "tipo": "muro",
+      "poligono": [[520,400], [880,400], [880,420], [520,420]],
+      "color": "#666666"
+    },
+    {
+      "nombre": "Puerta principal",
+      "tipo": "puerta",
+      "poligono": [[100,0], [170,0], [170,20], [100,20]],
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Puerta baño",
+      "tipo": "puerta",
+      "poligono": [[400,250], [450,250], [450,270], [400,270]],
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Puerta dormitorio principal",
+      "tipo": "puerta",
+      "poligono": [[500,350], [520,350], [520,400], [500,400]],
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Puerta dormitorio-oficina",
+      "tipo": "puerta",
+      "poligono": [[650,400], [700,400], [700,420], [650,420]],
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Ventana salón sur",
+      "tipo": "ventana",
+      "poligono": [[200,580], [350,580], [350,600], [200,600]],
+      "color": "#ADD8E6"
+    },
+    {
+      "nombre": "Ventana dormitorio principal sur",
+      "tipo": "ventana",
+      "poligono": [[600,580], [750,580], [750,600], [600,600]],
+      "color": "#ADD8E6"
+    },
+    {
+      "nombre": "Ventana oficina este",
+      "tipo": "ventana",
+      "poligono": [[880,450], [900,450], [900,550], [880,550]],
+      "color": "#ADD8E6"
+    },
+    {
+      "nombre": "Ventana cocina norte",
+      "tipo": "ventana",
+      "poligono": [[100,0], [250,0], [250,20], [100,20]],
+      "color": "#ADD8E6"
+    },
+    {
+      "nombre": "Puerta balcón",
+      "tipo": "puerta",
+      "poligono": [[350,580], [500,580], [500,600], [350,600]],
+      "color": "#ADD8E6"
+    }
+  ],
+  "objetos": [
+    {
+      "nombre": "Sofá principal",
+      "descripcion": "Sofá modular de tres plazas donde Ana y Daniel disfrutan de películas y videollamadas con amigos en la pantalla inteligente",
+      "tipo": "sofa",
+      "forma": "rectangulo",
+      "dimensiones": [220, 90],
+      "posicion": [650, 300],
+      "rotacion": 0,
+      "color": "#228B22"
+    },
+    {
+      "nombre": "Mesa de centro",
+      "descripcion": "Mesa de madera reciclada con superficie de cristal donde suelen extender planos de proyectos y compartir aperitivos",
+      "tipo": "mesa",
+      "forma": "rectangulo",
+      "dimensiones": [120, 60],
+      "posicion": [650, 370],
+      "rotacion": 0,
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Mesa comedor",
+      "descripcion": "Mesa extensible de madera certificada FSC donde celebran cenas con amigos y familiares",
+      "tipo": "mesa",
+      "forma": "rectangulo",
+      "dimensiones": [160, 90],
+      "posicion": [400, 370],
+      "rotacion": 0,
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Sillas comedor",
+      "descripcion": "Conjunto de sillas ergonómicas hechas con materiales reciclados que se utilizan tanto para las comidas como para el teletrabajo ocasional",
+      "tipo": "silla",
+      "forma": "rectangulo",
+      "dimensiones": [45, 45],
+      "posicion": [350, 350],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Sillas comedor 2",
+      "descripcion": "Parte del conjunto de sillas del comedor, usadas habitualmente en las cenas con invitados",
+      "tipo": "silla",
+      "forma": "rectangulo",
+      "dimensiones": [45, 45],
+      "posicion": [350, 390],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Sillas comedor 3",
+      "descripcion": "Parte del conjunto de sillas del comedor, utilizadas durante las sesiones de diseño conjunto",
+      "tipo": "silla",
+      "forma": "rectangulo",
+      "dimensiones": [45, 45],
+      "posicion": [450, 350],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Sillas comedor 4",
+      "descripcion": "Parte del conjunto de sillas del comedor, donde Daniel suele sentarse para trabajar de manera informal",
+      "tipo": "silla",
+      "forma": "rectangulo",
+      "dimensiones": [45, 45],
+      "posicion": [450, 390],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Isla cocina",
+      "descripcion": "Isla central que funciona como área de preparación y barra de desayuno, donde Ana prepara infusiones con hierbas de su huerto urbano",
+      "tipo": "mesa",
+      "forma": "rectangulo",
+      "dimensiones": [180, 80],
+      "posicion": [160, 130],
+      "rotacion": 0,
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Taburetes isla",
+      "descripcion": "Taburetes altos de diseño sostenible donde desayunan rápidamente antes de comenzar la jornada",
+      "tipo": "silla",
+      "forma": "circulo",
+      "dimensiones": [35],
+      "posicion": [100, 170],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Taburetes isla 2",
+      "descripcion": "Segundo taburete de la barra de desayuno, donde Daniel suele revisar el correo mientras toma café",
+      "tipo": "silla",
+      "forma": "circulo",
+      "dimensiones": [35],
+      "posicion": [150, 170],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Nevera inteligente",
+      "descripcion": "Refrigerador de bajo consumo conectado que monitoriza alimentos y sugiere recetas basadas en el inventario disponible",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [70, 80],
+      "posicion": [60, 60],
+      "rotacion": 0,
+      "color": "#708090"
+    },
+    {
+      "nombre": "Cocina de inducción",
+      "descripcion": "Placa de inducción de alta eficiencia donde Ana experimenta con recetas usando los productos de su huerto urbano",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [80, 60],
+      "posicion": [170, 60],
+      "rotacion": 0,
+      "color": "#708090"
+    },
+    {
+      "nombre": "Lavadora ecológica",
+      "descripcion": "Lavadora de bajo consumo de agua y electricidad programable mediante la aplicación domótica",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [60, 60],
+      "posicion": [260, 60],
+      "rotacion": 0,
+      "color": "#708090"
+    },
+    {
+      "nombre": "Cama principal",
+      "descripcion": "Cama de matrimonio con base de madera reciclada y colchón orgánico donde descansan tras intensas jornadas de trabajo",
+      "tipo": "cama",
+      "forma": "rectangulo",
+      "dimensiones": [200, 160],
+      "posicion": [700, 500],
+      "rotacion": 0,
+      "color": "#4682B4"
+    },
+    {
+      "nombre": "Escritorio teletrabajo",
+      "descripcion": "Escritorio ajustable en altura con materiales sostenibles donde Daniel desarrolla sus sistemas domóticos",
+      "tipo": "mesa",
+      "forma": "rectangulo",
+      "dimensiones": [140, 70],
+      "posicion": [800, 500],
+      "rotacion": 90,
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Silla ergonómica",
+      "descripcion": "Silla especial de teletrabajo con certificación ergonómica que Ana usa durante largas sesiones de diseño arquitectónico",
+      "tipo": "silla",
+      "forma": "rectangulo",
+      "dimensiones": [55, 55],
+      "posicion": [740, 500],
+      "rotacion": 90,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Inodoro ecológico",
+      "descripcion": "Sanitario de bajo consumo de agua con sistema de doble descarga",
+      "tipo": "sanitario",
+      "forma": "rectangulo",
+      "dimensiones": [70, 40],
+      "posicion": [350, 200],
+      "rotacion": 0,
+      "color": "#F5F5F5"
+    },
+    {
+      "nombre": "Ducha sostenible",
+      "descripcion": "Ducha con sistema de reutilización de aguas grises y regulador de temperatura inteligente",
+      "tipo": "sanitario",
+      "forma": "rectangulo",
+      "dimensiones": [90, 90],
+      "posicion": [450, 180],
+      "rotacion": 0,
+      "color": "#F5F5F5"
+    },
+    {
+      "nombre": "Lavabo doble",
+      "descripcion": "Lavabo con grifería de bajo consumo y sensores de presencia para activación",
+      "tipo": "sanitario",
+      "forma": "rectangulo",
+      "dimensiones": [120, 50],
+      "posicion": [400, 100],
+      "rotacion": 0,
+      "color": "#F5F5F5"
+    },
+    {
+      "nombre": "Armario vestidor",
+      "descripcion": "Armario empotrado con iluminación LED automática que se activa al abrir las puertas",
+      "tipo": "armario",
+      "forma": "rectangulo",
+      "dimensiones": [180, 60],
+      "posicion": [600, 300],
+      "rotacion": 0,
+      "color": "#DEB887"
+    },
+    {
+      "nombre": "Estantería salón",
+      "descripcion": "Librería modular donde Ana mantiene sus libros de arquitectura sostenible y Daniel sus revistas técnicas",
+      "tipo": "estanteria",
+      "forma": "rectangulo",
+      "dimensiones": [180, 30],
+      "posicion": [750, 150],
+      "rotacion": 0,
+      "color": "#DEB887"
+    },
+    {
+      "nombre": "Pantalla inteligente",
+      "descripcion": "Televisor de bajo consumo integrado con el sistema domótico para videoconferencias y entretenimiento",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [120, 10],
+      "posicion": [800, 230],
+      "rotacion": 0,
+      "color": "#708090"
+    },
+    {
+      "nombre": "Panel de control domótico",
+      "descripcion": "Panel táctil central donde se controlan todos los sistemas de la casa, desarrollado por Daniel",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [30, 20],
+      "posicion": [180, 20],
+      "rotacion": 0,
+      "color": "#708090",
+      "animacion": {
+        "tipo": "parpadeo",
+        "velocidad": 5
+      }
+    },
+    {
+      "nombre": "Hub de comunicaciones",
+      "descripcion": "Centro de conexiones de alta velocidad para el trabajo remoto de ambos, con fibra óptica dedicada",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [30, 20],
+      "posicion": [600, 420],
+      "rotacion": 0,
+      "color": "#708090",
+      "animacion": {
+        "tipo": "parpadeo",
+        "velocidad": 3
+      }
+    },
+    {
+      "nombre": "Huerto urbano vertical",
+      "descripcion": "Sistema hidropónico automatizado diseñado por Ana para cultivar hierbas aromáticas y pequeñas hortalizas",
+      "tipo": "estanteria",
+      "forma": "rectangulo",
+      "dimensiones": [100, 40],
+      "posicion": [425, 600],
+      "rotacion": 0,
+      "color": "#228B22"
+    },
+    {
+      "nombre": "Lámpara principal",
+      "descripcion": "Iluminación inteligente con ajuste automático según la luz natural disponible y preferencias personales",
+      "tipo": "iluminacion",
+      "forma": "circulo",
+      "dimensiones": [60],
+      "posicion": [650, 150],
+      "rotacion": 0,
+      "color": "#FFFF00"
+    },
+    {
+      "nombre": "Sensores ambientales",
+      "descripcion": "Red de sensores que monitorean la calidad del aire, temperatura y humedad para mantener condiciones óptimas",
+      "tipo": "electrodomestico",
+      "forma": "circulo",
+      "dimensiones": [10],
+      "posicion": [400, 50],
+      "rotacion": 0,
+      "color": "#708090",
+      "animacion": {
+        "tipo": "parpadeo",
+        "velocidad": 8
+      }
+    }
+  ]
+}
