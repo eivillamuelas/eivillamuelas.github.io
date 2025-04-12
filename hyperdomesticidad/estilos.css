@@ -1,0 +1,128 @@
+/* Estilos para el visualizador de casas */
+
+.casa-visualizador {
+    box-sizing: border-box;
+}
+
+.casa-visualizador h2 {
+    margin-bottom: 25px;
+}
+
+.visual-container {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.planta-container {
+    flex: 3;
+    position: relative;
+    height: 400px;
+}
+
+.planta-container svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+}
+
+.leyenda-container {
+    flex: 1;
+    padding: 15px;
+    max-width: 200px;
+    overflow-y: auto;
+}
+
+.leyenda-container h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.leyenda-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leyenda-container li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.leyenda-container .color-box {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #888;
+    margin-right: 8px;
+}
+
+.descripcion {
+    white-space: pre-line;
+}
+
+.tooltip {
+    position: absolute;
+    display: none;
+    padding: 8px 12px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 4px;
+    font-size: 14px;
+    max-width: 250px;
+    z-index: 1000;
+    pointer-events: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para elementos SVG */
+svg .planta polygon {
+    stroke-width: 1;
+    transition: opacity 0.2s;
+}
+
+svg .planta polygon:hover {
+    opacity: 0.8;
+}
+
+svg .objetos rect, 
+svg .objetos circle,
+svg .objetos polygon {
+    stroke-width: 1;
+    transition: opacity 0.2s;
+}
+
+svg .objetos rect:hover, 
+svg .objetos circle:hover,
+svg .objetos polygon:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* Clases para efectos de animación */
+.efecto-brillo {
+    filter: url(#filtro_brillo);
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .visual-container {
+        flex-direction: column;
+    }
+    
+    .leyenda-container {
+        max-width: 100%;
+    }
+}
+
+/* Mensaje de error */
+.error {
+    padding: 15px;
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+    border-radius: 4px;
+    margin: 10px 0;
+}

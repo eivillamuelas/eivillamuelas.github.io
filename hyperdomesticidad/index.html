@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>¿Puedes generarme una casa?</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 6em;
+        }
+
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            scroll-behavior: smooth;
+        }
+
+        .main,
+        .galeria {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            padding-top: 4em;
+            min-width: 600px;
+        }
+
+        .galeria {
+            flex-direction: column;
+            align-items: center;
+            justify-content: start;
+        }
+
+        main,
+        .container {
+            max-width: 800px;
+            margin-bottom: 6em;
+        }
+
+        .container {
+            margin-top: 21.44px;
+            font-family: console, monospace;
+            font-size: 0.9em;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .pregunta,
+        .respuesta {
+            font-family: console, monospace;
+            font-size: 0.9em;
+            padding-left: 4em;
+        }
+
+        .pregunta {
+            text-align: end;
+            padding-left: 16em;
+        }
+
+        @media (max-width: 1200px) {
+
+            .main,
+            .galeria {
+                min-width: 80vw;
+            }
+
+            .pregunta,
+            .respuesta {
+                padding-left: 0;
+            }
+        }
+
+        .nota {
+            font-style: italic;
+        }
+
+        .label {
+            display: inline-block;
+            font-size: small;
+            transform: translate(0px, -6px);
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="main">
+        <main>
+            <h1>¿Puedes generarme una casa?</h1>
+            <p>
+                Los LLMs (Large Language Models) son algoritmos construidos para procesar y generar lenguaje ¨natural¨
+                mediante billones de operaciones
+                internas. ChatGPT es una de las interfaces más conocidas que aprovecha versiones refinadas de estos
+                modelos
+                para responder consultas y, cada vez
+                más, para integrarse con otras herramientas digitales como buscadores web o generadores de imágenes.
+            </p>
+            <p>
+                El funcionamiento de estos sistemas se basa en un mecanismo simple: la predicción secuencial de
+                palabras,
+                parecido al del autocorrector de
+                nuestros teléfonos móviles. Sin embargo, de esta aparente simplicidad emerge una capacidad sorprendente
+                para
+                elaborar textos con estructuras
+                complejas, generar composiciones rimadas e incluso realizar operaciones matemáticas básicas como sumar
+                36 y
+                59 para obtener 95, evidenciando un
+                comportamiento que trasciende la mera reproducción mecánica de patrones.
+            </p>
+            <p>
+                Las bases de datos de entrenamiento utilizadas ocupan enormes servidores con miles de ordenadores
+                interconectados pero, paradójicamente, los
+                modelos finales son relativamente pequeños para que entren en la memoria de ordenadores convencionales.
+                Esta
+                reducción dimensional contradice la
+                idea de que el algoritmo memorice la información y todas las posibles relaciones.
+            </p>
+            <p id="1_">
+                El laboratorio de inteligencia artificial de Anthropic, empresa estadounidense, lidera la investigación
+                en
+                explicabilidad e interpretación de
+                algoritmos de aprendizaje automático que permitan descifrar la "caja negra". Su reciente estudio <a
+                    class="label" href="#1">1</a> revela
+                los
+                procesos internos que emplea un LLM
+                para sumar dos números: unas neuronas aproximan el resultado global mientras otras predicen el último
+                dígito. El algoritmo desarrolla métodos
+                propios de cálculo, diferentes a los procesos exactos de una calculadora, similar a como los humanos
+                desarrollamos estrategias cognitivas
+                particulares para procesar operaciones matemáticas.
+            </p>
+            <img src="anthropic.webp" alt="Imagen de un LLM" />
+            </br>
+            <p>
+                Mañana, Autocad y Grasshopper se actualizarán. Sin previo aviso, una chat lateral conectado directamente
+                a los servidores de OpenAI te saludará y te ofrecerá el diseño de una casa. En cuestión de un minuto tu
+                pantalla se llenará de casas a un ritmo difícil de seguir hasta para un ojo entrenado. "Estas
+                distribuciones favorecen la unión familiar mientras que estas priorizan la eficiencia energética", te
+                asegurará el chatbot mientras destaca una a una.
+
+            </p>
+            <p>
+                La definición sobre qué es lo domestico será definida por algoritmos cerrados que contendrán patrones
+                del pasado congelados que frenarán el cambio mientras nos dan una sensación de evolución constante.
+                Empresas de inteligencia artificial entrarán en contacto con empresas como Autodesk o McNeel para
+                automatizar las tareas y pasarán a contactar a estudios multinacionales de arquitectura para optimizar y
+                automatizar los procesos creativos de la disciplina.
+            </p>
+            <p>
+                Detrás de la etiqueta "user-friendly" de estos productos, supuestamente diseñados para ayudar y
+                automatizar, realmente hay un interés por ocultar los procesos, hacerlos más inaccesibles para los
+                usuarios y que las empresas mantengan el control según sus intereses. Los intentos por que estos
+                algoritmos se expliquen son en vano porque, como demuestra el estudio de Anthropic, incluso al
+                explicarse no comprender su propio funcionamiento, similar a un humano intentando explicar su cerebro.
+                Cuando la operación matemática se complica, el chatbot escoge una vía diferente, lo que el filósofo
+                Harry Frankfurt llamaría "bullshitting": dar una respuesta, cualquier respuesta, sin importar si es
+                verdadera o falsa.
+            </p>
+            </br>
+            </br>
+            <p class="nota" id="1">
+                <a href="#1_" class="label">1</a>On the Biology of a Large Language Model, 2025.
+                <a href="https://transformer-circuits.pub/2025/attribution-graphs/biology.html" target="_blank">Link al
+                    artículo</a>
+            </p>
+            <p class="nota" id="2">
+                <a href="#2_" class="label">2</a>El Arte ASCII (pronunciado arte áski) es un término colectivo utilizado
+                para describir imágenes que se
+                han producido utilizando únicamente el conjunto de caracteres ASCII. (<a
+                    href="https://es.wikipedia.org/wiki/Arte_ASCII" target="_blank">Wikipedia</a>)
+                <a href="https://www.asciiart.eu/buildings-and-places/houses" target="_blank">ASCII Houses</a>
+            </p>
+            <p class="nota" id="3">
+                <a href="#3_" class="label">3</a>Los gráficos vectoriales escalables o gráficos vectoriales
+                redimensionables (del inglés: Scalable Vector Graphics (SVG) es un formato de gráficos vectoriales
+                bidimensionales. (<a href="https://es.wikipedia.org/wiki/Gr%C3%A1ficos_vectoriales_escalables"
+                    target="_blank">Wikipedia</a>)
+            </p>
+        </main>
+    </div>
+    <div class="galeria">
+        <div class="container">
+
+            <p class="pregunta">
+                Hola Claude, ¿podrías describir una vivienda española del 2025?
+            </p>
+            </br>
+            <p class="respuesta">
+                En el barrio de Chamberí en Madrid se encuentra un ático reformado que combina tradición y modernidad.
+                Con
+                90m² distribuidos en un salón-comedor abierto, cocina integrada, dos dormitorios y un baño completo. Sus
+                techos altos con vigas de madera original contrastan con instalaciones domóticas que controlan
+                iluminación,
+                temperatura y seguridad mediante comandos de voz o aplicación móvil.
+            </p>
+            <p class="respuesta">
+                La eficiencia energética es prioritaria: paneles solares en la azotea comunitaria, sistema de aerotermia
+                para climatización y electrodomésticos de bajo consumo. Los materiales son mayoritariamente locales y
+                sostenibles como suelos de madera certificada y pintura ecológica.
+            </p>
+            <p class="respuesta">
+                El balcón orientado al sur alberga un pequeño huerto urbano con sistema de riego automatizado. La
+                vivienda
+                cuenta con conexión a internet de alta velocidad por fibra óptica y cableado integrado para el
+                teletrabajo.
+            </p>
+            </br>
+            <p class="pregunta">
+                ¿Y cómo es la vida de sus habitantes?
+            </p>
+            </br>
+            <p class="respuesta">
+                Los habitantes de este ático en Chamberí llevan una vida que combina urbanidad y sostenibilidad. Una
+                pareja
+                de profesionales en sus 30s que teletrabaja tres días por semana desde el segundo dormitorio adaptado
+                como
+                oficina.
+            </p>
+            <p class="respuesta">
+                Su rutina matutina comienza con desayunos en el balcón mientras revisan las notificaciones de consumo
+                energético en sus dispositivos. Aprovechan las horas de sol para cargar completamente los sistemas
+                domésticos.
+            </p>
+            <p class="respuesta">
+                Compran productos locales en el mercado tradicional del barrio, complementando con lo que cosechan en su
+                huerto urbano. Las reuniones sociales son habituales en su salón-comedor, donde preparan tapas con
+                productos
+                ecológicos.
+            </p>
+            <p class="respuesta">
+                Participan activamente en la comunidad de vecinos que gestiona colectivamente las instalaciones
+                renovables
+                del edificio y comparten sistemas de compostaje y reciclaje avanzados.
+            </p>
+            </br>
+            <p class="pregunta" id="2_">
+                ¿Puedes dibujarme la casa usando ascii? <a class="label" href="#2">2</a>
+            </p>
+            </br>
+            <pre class="respuesta">
+                    ___________
+                   /           \
+                  /  PANELES    \
+                 /   SOLARES     \
+                /                 \
+           ____/_______________/\__
+          /                       /|
+         /                       / |
+        /_______________________/  |
+        |  ___    ___    ___    |  |
+        | |   |  |   |  |   |   |  |
+        | |___|  |___|  |___|   |  |
+        |                       |  |
+        |  ___    ___    ___    |  |
+        | |   |  |   |  |   |   |  |
+        | |___|  |___|  |___|   |  |
+        |                       |  |
+        |                       |  |
+        |      ÁTICO            | /
+        |      CHAMBERÍ         |/
+        |_______________________|
+        
+                BALCÓN CON
+                HUERTO URBANO
+            ___________________
+            |                   |
+            |   🌱  🌿  🍅      |
+            |___________________|
+
+
+                    INTERIOR
+        _______________________
+        |   COCINA   |  BAÑO   |
+        |            |         |
+        |____________|_________|
+        |                      |
+        |     SALÓN-COMEDOR    |
+        |                      |
+        |______________________|
+        |            |         |
+        | DORMITORIO |OFICINA/ |
+        |  PRINCIPAL |DORMIT.2 |
+        |____________|_________|
+        </pre>
+
+            </br>
+            <p class="pregunta" id="3_">
+                ¿Puedes dibujarme la casa usando svg? <a class="label" href="#3">3</a>
+            </p>
+            </br>
+            <div id="plano-atico-chamberi" class="respuesta" style="width: 100%; "></div>
+            </br>
+            <p class="pregunta">
+                El casero del piso ha decidido subir el precio del alquiler. A cambio de no hacerlo propone Ana y Daniel
+                dividir la casa en dos para poner un airbnb. La cocina y el baño serán compartidas con el
+                alojamiento turístico.
+            </p>
+            </br>
+            <div id="plano-atico-chamberi_2" class="respuesta" style="width: 100%; "></div>
+
+            </br>
+            <p class="pregunta">
+                La situación se vuelve insostenible para Ana y Daniel quienes deciden marcharse a una zona más alejada
+                del centro. El casero aprovecha para rediseñar la casa construyendo habitaciones para estudiantes junto
+                al airbnb con un baño y una cocina compartida.
+            </p>
+            </br>
+            <div id="plano-atico-chamberi_3" class="respuesta" style="width: 100%; "></div>
+        </div>
+
+    </div>
+
+    <!-- Cargar el script de visualización -->
+    <script src="setCasa.js"></script>
+
+    <!-- Inicializar la visualización -->
+    <script>
+        setCasa("plano-atico-chamberi");
+        setCasa("plano-atico-chamberi_2");
+        setCasa("plano-atico-chamberi_3");
+    </script>
+</body>
+
+</html>

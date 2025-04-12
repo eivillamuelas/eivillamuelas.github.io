@@ -1,0 +1,660 @@
+{
+  "titulo": "Ático Chamberí: Coliving Estudiantil y Turístico",
+  "descripcion": "Este ático de 90m² en el corazón de Chamberí ha sido completamente rediseñado para maximizar su rentabilidad tras la marcha de sus antiguos inquilinos. La vivienda conserva sus características arquitectónicas originales como los techos altos con vigas de madera centenaria, pero ahora está distribuida en cuatro habitaciones independientes que comparten zonas comunes. \n\n  Dos de las habitaciones están destinadas a estudiantes con contratos de larga duración (habitualmente Erasmus o estudiantes de máster), mientras que las otras dos funcionan exclusivamente como alojamiento turístico tipo Airbnb con alta rotación. El espacio central del antiguo salón se ha convertido en una zona común con pequeñas áreas de estudio y socialización. La cocina se mantiene como espacio compartido, ahora equipada con armarios etiquetados para cada habitación y un sistema de reserva digital para cocinar en horas punta. El baño también es de uso común y cuenta con un calendario de turnos para las mañanas. \n\n  El sistema domótico original ha sido ampliado para permitir accesos individualizados mediante códigos temporales y controlar el consumo energético por habitación, facturando a cada inquilino según su uso real. La eficiencia energética sigue siendo una prioridad, aprovechando los paneles solares de la azotea comunitaria y el sistema de aerotermia para climatización. \n\n  El balcón ha sido acondicionado como área común de descanso con plantas decorativas y pequeñas mesas plegables. Cada habitación está equipada con una cama, escritorio, armario privado con llave, y conexión a internet independiente. \n\n  Las habitaciones para estudiantes incluyen además librerías y tablones de corcho, mientras que las turísticas cuentan con elementos más propios de un hotel como pequeñas cafeteras y amenities. \n\n  Este modelo de coliving permite al propietario mantener una alta ocupación durante todo el año, alternando la temporada baja turística con la alta demanda estudiantil, mientras ofrece a los inquilinos una ubicación privilegiada a un precio más asequible que un apartamento completo en la misma zona.",
+  "planta": [
+    {
+      "nombre": "Muro exterior norte",
+      "tipo": "muro",
+      "poligono": [[0,0], [900,0], [900,20], [0,20]],
+      "color": "#444444"
+    },
+    {
+      "nombre": "Muro exterior este",
+      "tipo": "muro",
+      "poligono": [[880,20], [900,20], [900,600], [880,600]],
+      "color": "#444444"
+    },
+    {
+      "nombre": "Muro exterior sur",
+      "tipo": "muro",
+      "poligono": [[0,580], [900,580], [900,600], [0,600]],
+      "color": "#444444"
+    },
+    {
+      "nombre": "Muro exterior oeste",
+      "tipo": "muro",
+      "poligono": [[0,20], [20,20], [20,600], [0,600]],
+      "color": "#444444"
+    },
+    {
+      "nombre": "Muro divisorio cocina-zona común",
+      "tipo": "muro",
+      "poligono": [[300,20], [320,20], [320,250], [300,250]],
+      "color": "#666666"
+    },
+    {
+      "nombre": "Muro divisorio baño",
+      "tipo": "muro",
+      "poligono": [[320,250], [500,250], [500,270], [320,270]],
+      "color": "#666666"
+    },
+    {
+      "nombre": "Muro habitación 1 (estudiante)",
+      "tipo": "muro",
+      "poligono": [[20,300], [300,300], [300,320], [20,320]],
+      "color": "#666666"
+    },
+    {
+      "nombre": "Muro habitación 2 (estudiante)",
+      "tipo": "muro",
+      "poligono": [[20,320], [40,320], [40,580], [20,580]],
+      "color": "#666666"
+    },
+    {
+      "nombre": "Muro divisorio habitación 2-3",
+      "tipo": "muro",
+      "poligono": [[300,320], [320,320], [320,580], [300,580]],
+      "color": "#666666"
+    },
+    {
+      "nombre": "Muro habitación 3 (Airbnb)",
+      "tipo": "muro",
+      "poligono": [[520,320], [540,320], [540,580], [520,580]],
+      "color": "#666666"
+    },
+    {
+      "nombre": "Muro divisorio habitación 3-4",
+      "tipo": "muro",
+      "poligono": [[540,450], [880,450], [880,470], [540,470]],
+      "color": "#666666"
+    },
+    {
+      "nombre": "Muro habitación 4 (Airbnb)",
+      "tipo": "muro",
+      "poligono": [[520,270], [880,270], [880,290], [520,290]],
+      "color": "#666666"
+    },
+    {
+      "nombre": "Puerta entrada principal",
+      "tipo": "puerta",
+      "poligono": [[100,0], [170,0], [170,20], [100,20]],
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Puerta baño común",
+      "tipo": "puerta",
+      "poligono": [[400,250], [450,250], [450,270], [400,270]],
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Puerta habitación 1",
+      "tipo": "puerta",
+      "poligono": [[150,300], [200,300], [200,320], [150,320]],
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Puerta habitación 2",
+      "tipo": "puerta",
+      "poligono": [[150,320], [150,370], [170,370], [170,320]],
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Puerta habitación 3",
+      "tipo": "puerta",
+      "poligono": [[600,320], [600,370], [620,370], [620,320]],
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Puerta habitación 4",
+      "tipo": "puerta",
+      "poligono": [[650,270], [700,270], [700,290], [650,290]],
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Ventana habitación 1",
+      "tipo": "ventana",
+      "poligono": [[200,0], [280,0], [280,20], [200,20]],
+      "color": "#ADD8E6"
+    },
+    {
+      "nombre": "Ventana cocina",
+      "tipo": "ventana",
+      "poligono": [[100,0], [180,0], [180,20], [100,20]],
+      "color": "#ADD8E6"
+    },
+    {
+      "nombre": "Ventana habitación 2",
+      "tipo": "ventana",
+      "poligono": [[150,580], [250,580], [250,600], [150,600]],
+      "color": "#ADD8E6"
+    },
+    {
+      "nombre": "Ventana habitación 3",
+      "tipo": "ventana",
+      "poligono": [[350,580], [450,580], [450,600], [350,600]],
+      "color": "#ADD8E6"
+    },
+    {
+      "nombre": "Ventana habitación 4",
+      "tipo": "ventana",
+      "poligono": [[880,350], [900,350], [900,420], [880,420]],
+      "color": "#ADD8E6"
+    },
+    {
+      "nombre": "Puerta balcón común",
+      "tipo": "puerta",
+      "poligono": [[650,580], [750,580], [750,600], [650,600]],
+      "color": "#ADD8E6"
+    }
+  ],
+  "objetos": [
+    {
+      "nombre": "Cama habitación 1 (estudiante)",
+      "descripcion": "Cama individual para estudiante de larga estancia con almacenamiento inferior para optimizar el espacio",
+      "tipo": "cama",
+      "forma": "rectangulo",
+      "dimensiones": [190, 90],
+      "posicion": [100, 200],
+      "rotacion": 0,
+      "color": "#4682B4"
+    },
+    {
+      "nombre": "Escritorio estudio hab. 1",
+      "descripcion": "Escritorio amplio para estudiante con espacio para ordenador y materiales de estudio",
+      "tipo": "mesa",
+      "forma": "rectangulo",
+      "dimensiones": [140, 60],
+      "posicion": [220, 150],
+      "rotacion": 0,
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Silla estudio hab. 1",
+      "descripcion": "Silla ergonómica ajustable para largas jornadas de estudio",
+      "tipo": "silla",
+      "forma": "rectangulo",
+      "dimensiones": [50, 50],
+      "posicion": [220, 220],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Armario hab. 1",
+      "descripcion": "Armario con llave para guardar pertenencias personales del estudiante",
+      "tipo": "armario",
+      "forma": "rectangulo",
+      "dimensiones": [120, 60],
+      "posicion": [100, 100],
+      "rotacion": 0,
+      "color": "#DEB887"
+    },
+    {
+      "nombre": "Estantería hab. 1",
+      "descripcion": "Librería para almacenar libros de texto y material académico",
+      "tipo": "estanteria",
+      "forma": "rectangulo",
+      "dimensiones": [120, 30],
+      "posicion": [220, 50],
+      "rotacion": 0,
+      "color": "#DEB887"
+    },
+    {
+      "nombre": "Cama habitación 2 (estudiante)",
+      "descripcion": "Cama individual para segundo estudiante con cabecero que incorpora pequeño estante",
+      "tipo": "cama",
+      "forma": "rectangulo",
+      "dimensiones": [190, 90],
+      "posicion": [150, 450],
+      "rotacion": 90,
+      "color": "#4682B4"
+    },
+    {
+      "nombre": "Escritorio estudio hab. 2",
+      "descripcion": "Escritorio compacto pero funcional con organizador vertical",
+      "tipo": "mesa",
+      "forma": "rectangulo",
+      "dimensiones": [120, 60],
+      "posicion": [220, 450],
+      "rotacion": 0,
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Silla estudio hab. 2",
+      "descripcion": "Silla ergonómica con soporte lumbar, ideal para extensas sesiones de estudio",
+      "tipo": "silla",
+      "forma": "rectangulo",
+      "dimensiones": [50, 50],
+      "posicion": [220, 520],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Armario hab. 2",
+      "descripcion": "Armario empotrado con compartimentos y cajones, con cerradura personal",
+      "tipo": "armario",
+      "forma": "rectangulo",
+      "dimensiones": [100, 60],
+      "posicion": [70, 450],
+      "rotacion": 0,
+      "color": "#DEB887"
+    },
+    {
+      "nombre": "Cama habitación 3 (Airbnb)",
+      "descripcion": "Cama doble de hotel con colchón premium para huéspedes temporales",
+      "tipo": "cama",
+      "forma": "rectangulo",
+      "dimensiones": [200, 150],
+      "posicion": [430, 450],
+      "rotacion": 0,
+      "color": "#4682B4"
+    },
+    {
+      "nombre": "Mesita noche hab. 3",
+      "descripcion": "Mesa de noche con lámpara de lectura y cargador USB integrado",
+      "tipo": "mesa",
+      "forma": "rectangulo",
+      "dimensiones": [50, 40],
+      "posicion": [350, 380],
+      "rotacion": 0,
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Armario Airbnb hab. 3",
+      "descripcion": "Armario básico para estancias cortas con perchas y pequeña caja fuerte",
+      "tipo": "armario",
+      "forma": "rectangulo",
+      "dimensiones": [100, 60],
+      "posicion": [430, 350],
+      "rotacion": 0,
+      "color": "#DEB887"
+    },
+    {
+      "nombre": "Cama habitación 4 (Airbnb)",
+      "descripcion": "Cama tamaño queen con cabecero integrado, perfecta para parejas de turistas",
+      "tipo": "cama",
+      "forma": "rectangulo",
+      "dimensiones": [200, 160],
+      "posicion": [700, 370],
+      "rotacion": 0,
+      "color": "#4682B4"
+    },
+    {
+      "nombre": "Mesita de noche hab. 4",
+      "descripcion": "Mesa auxiliar con información turística y folletos sobre Madrid",
+      "tipo": "mesa",
+      "forma": "rectangulo",
+      "dimensiones": [50, 40],
+      "posicion": [600, 330],
+      "rotacion": 0,
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Armario Airbnb hab. 4",
+      "descripcion": "Armario espacioso con espejo en la puerta para los huéspedes",
+      "tipo": "armario",
+      "forma": "rectangulo",
+      "dimensiones": [120, 60],
+      "posicion": [800, 370],
+      "rotacion": 0,
+      "color": "#DEB887"
+    },
+    {
+      "nombre": "Mesa zona común",
+      "descripcion": "Mesa multifuncional para estudiar, comer o socializar en la zona compartida",
+      "tipo": "mesa",
+      "forma": "rectangulo",
+      "dimensiones": [160, 90],
+      "posicion": [430, 180],
+      "rotacion": 0,
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Silla común 1",
+      "descripcion": "Silla de la zona común, utilizada tanto por estudiantes como por turistas",
+      "tipo": "silla",
+      "forma": "rectangulo",
+      "dimensiones": [45, 45],
+      "posicion": [380, 150],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Silla común 2",
+      "descripcion": "Silla de la zona común, resistente y fácil de limpiar",
+      "tipo": "silla",
+      "forma": "rectangulo",
+      "dimensiones": [45, 45],
+      "posicion": [380, 210],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Silla común 3",
+      "descripcion": "Silla de la zona común, con diseño moderno y ergonómico",
+      "tipo": "silla",
+      "forma": "rectangulo",
+      "dimensiones": [45, 45],
+      "posicion": [480, 150],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Silla común 4",
+      "descripcion": "Silla de la zona común, apilable para crear más espacio cuando sea necesario",
+      "tipo": "silla",
+      "forma": "rectangulo",
+      "dimensiones": [45, 45],
+      "posicion": [480, 210],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Sofá zona común",
+      "descripcion": "Sofá modular y fácil de limpiar en la zona compartida para momentos de relax",
+      "tipo": "sofa",
+      "forma": "rectangulo",
+      "dimensiones": [180, 80],
+      "posicion": [650, 180],
+      "rotacion": 0,
+      "color": "#228B22"
+    },
+    {
+      "nombre": "Isla cocina compartida",
+      "descripcion": "Isla central con zonas designadas para cada habitación con cerraduras en los gabinetes",
+      "tipo": "mesa",
+      "forma": "rectangulo",
+      "dimensiones": [180, 80],
+      "posicion": [160, 130],
+      "rotacion": 0,
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Taburetes cocina 1",
+      "descripcion": "Taburete alto para la isla, diseñado para ser cómodo y fácil de limpiar",
+      "tipo": "silla",
+      "forma": "circulo",
+      "dimensiones": [35],
+      "posicion": [100, 170],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Taburetes cocina 2",
+      "descripcion": "Segundo taburete para la isla, en la que los inquilinos pueden desayunar rápidamente",
+      "tipo": "silla",
+      "forma": "circulo",
+      "dimensiones": [35],
+      "posicion": [150, 170],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Nevera compartida",
+      "descripcion": "Refrigerador grande con compartimentos separados y cerraduras individuales para cada habitación",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [80, 80],
+      "posicion": [60, 60],
+      "rotacion": 0,
+      "color": "#708090"
+    },
+    {
+      "nombre": "Cocina inducción",
+      "descripcion": "Placa de inducción con temporizadores y sistema de bloqueo cuando no está en uso",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [80, 60],
+      "posicion": [170, 60],
+      "rotacion": 0,
+      "color": "#708090"
+    },
+    {
+      "nombre": "Lavadora compartida",
+      "descripcion": "Lavadora con sistema de pago por uso mediante aplicación",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [60, 60],
+      "posicion": [260, 60],
+      "rotacion": 0,
+      "color": "#708090"
+    },
+    {
+      "nombre": "Inodoro",
+      "descripcion": "Sanitario de bajo consumo con sistema de limpieza automática entre usos",
+      "tipo": "sanitario",
+      "forma": "rectangulo",
+      "dimensiones": [70, 40],
+      "posicion": [350, 200],
+      "rotacion": 0,
+      "color": "#F5F5F5"
+    },
+    {
+      "nombre": "Ducha compartida",
+      "descripcion": "Ducha con mamparas y sistema de reserva digital para garantizar privacidad",
+      "tipo": "sanitario",
+      "forma": "rectangulo",
+      "dimensiones": [90, 90],
+      "posicion": [450, 180],
+      "rotacion": 0,
+      "color": "#F5F5F5"
+    },
+    {
+      "nombre": "Lavabo doble",
+      "descripcion": "Lavabo con dos senos para reducir tiempos de espera en horas punta",
+      "tipo": "sanitario",
+      "forma": "rectangulo",
+      "dimensiones": [120, 50],
+      "posicion": [400, 100],
+      "rotacion": 0,
+      "color": "#F5F5F5"
+    },
+    {
+      "nombre": "TV zona común",
+      "descripcion": "Televisor inteligente en área común con sistema de suscripción a plataformas de streaming",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [120, 10],
+      "posicion": [650, 120],
+      "rotacion": 0,
+      "color": "#708090"
+    },
+    {
+      "nombre": "Cafetera común",
+      "descripcion": "Máquina de café para uso compartido con sistema de pago por uso",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [40, 30],
+      "posicion": [500, 50],
+      "rotacion": 0,
+      "color": "#708090"
+    },
+    {
+      "nombre": "Panel control hab. 1",
+      "descripcion": "Panel de acceso y control domótico para la habitación 1 con lector de huella digital",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [20, 15],
+      "posicion": [150, 320],
+      "rotacion": 0,
+      "color": "#708090",
+      "animacion": {
+        "tipo": "parpadeo",
+        "velocidad": 5
+      }
+    },
+    {
+      "nombre": "Panel control hab. 2",
+      "descripcion": "Panel de acceso y control domótico para la habitación 2 con sistema de código numérico",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [20, 15],
+      "posicion": [170, 350],
+      "rotacion": 0,
+      "color": "#708090",
+      "animacion": {
+        "tipo": "parpadeo",
+        "velocidad": 5
+      }
+    },
+    {
+      "nombre": "Panel control hab. 3",
+      "descripcion": "Panel de acceso para la habitación Airbnb con sistema de códigos temporales",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [20, 15],
+      "posicion": [620, 350],
+      "rotacion": 0,
+      "color": "#708090",
+      "animacion": {
+        "tipo": "parpadeo",
+        "velocidad": 5
+      }
+    },
+    {
+      "nombre": "Panel control hab. 4",
+      "descripcion": "Panel de acceso para la segunda habitación Airbnb con sistema de códigos temporales",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [20, 15],
+      "posicion": [700, 290],
+      "rotacion": 0,
+      "color": "#708090",
+      "animacion": {
+        "tipo": "parpadeo",
+        "velocidad": 5
+      }
+    },
+    {
+      "nombre": "Router central",
+      "descripcion": "Sistema de conexión a internet de alta velocidad con redes separadas para cada habitación",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [30, 20],
+      "posicion": [550, 50],
+      "rotacion": 0,
+      "color": "#708090",
+      "animacion": {
+        "tipo": "parpadeo",
+        "velocidad": 3
+      }
+    },
+    {
+      "nombre": "Control energético",
+      "descripcion": "Sistema que monitoriza y factura individualmente el consumo energético de cada habitación",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [25, 20],
+      "posicion": [100, 20],
+      "rotacion": 0,
+      "color": "#708090",
+      "animacion": {
+        "tipo": "parpadeo",
+        "velocidad": 6
+      }
+    },
+    {
+      "nombre": "Mesas balcón",
+      "descripcion": "Mesas plegables en el balcón común para disfrutar del exterior",
+      "tipo": "mesa",
+      "forma": "circulo",
+      "dimensiones": [60],
+      "posicion": [650, 600],
+      "rotacion": 0,
+      "color": "#8B4513"
+    },
+    {
+      "nombre": "Sillas balcón",
+      "descripcion": "Sillas plegables para el balcón común, de fácil almacenamiento",
+      "tipo": "silla",
+      "forma": "rectangulo",
+      "dimensiones": [40, 40],
+      "posicion": [700, 580],
+      "rotacion": 0,
+      "color": "#B22222"
+    },
+    {
+      "nombre": "Plantas decorativas",
+      "descripcion": "Macetas con plantas de bajo mantenimiento que dan vida al balcón común",
+      "tipo": "estanteria",
+      "forma": "rectangulo",
+      "dimensiones": [120, 30],
+      "posicion": [750, 600],
+      "rotacion": 0,
+      "color": "#228B22"
+    },
+    {
+      "nombre": "Calendario común",
+      "descripcion": "Panel digital interactivo que muestra las reservas de espacios comunes y horarios de limpieza",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [60, 40],
+      "posicion": [350, 50],
+      "rotacion": 0,
+      "color": "#708090",
+      "animacion": {
+        "tipo": "parpadeo",
+        "velocidad": 7
+      }
+    },
+    {
+      "nombre": "Lámparas estudio hab. 1",
+      "descripcion": "Iluminación regulable especializada para estudio, con varios modos de intensidad",
+      "tipo": "iluminacion",
+      "forma": "circulo",
+      "dimensiones": [40],
+      "posicion": [150, 150],
+      "rotacion": 0,
+      "color": "#FFFF00"
+    },
+    {
+      "nombre": "Lámparas estudio hab. 2",
+      "descripcion": "Iluminación regulable para facilitar largas jornadas de estudio",
+      "tipo": "iluminacion",
+      "forma": "circulo",
+      "dimensiones": [40],
+      "posicion": [150, 450],
+      "rotacion": 0,
+      "color": "#FFFF00"
+    },
+    {
+      "nombre": "Lámpara hab. 3",
+      "descripcion": "Iluminación ambiental para la habitación turística con control por voz",
+      "tipo": "iluminacion",
+      "forma": "circulo",
+      "dimensiones": [40],
+      "posicion": [430, 450],
+      "rotacion": 0,
+      "color": "#FFFF00"
+    },
+    {
+      "nombre": "Lámpara hab. 4",
+      "descripcion": "Iluminación inteligente para habitación turística con control desde aplicación móvil",
+      "tipo": "iluminacion",
+      "forma": "circulo",
+      "dimensiones": [40],
+      "posicion": [700, 370],
+      "rotacion": 0,
+      "color": "#FFFF00"
+    },
+    {
+      "nombre": "Iluminación zona común",
+      "descripcion": "Sistema de luces inteligentes en la zona común con sensores de presencia",
+      "tipo": "iluminacion",
+      "forma": "circulo",
+      "dimensiones": [50],
+      "posicion": [550, 180],
+      "rotacion": 0,
+      "color": "#FFFF00"
+    },
+    {
+      "nombre": "Tablón de anuncios",
+      "descripcion": "Panel digital donde se comparten normas, eventos locales y anuncios para la comunidad",
+      "tipo": "electrodomestico",
+      "forma": "rectangulo",
+      "dimensiones": [80, 10],
+      "posicion": [400, 300],
+      "rotacion": 0,
+      "color": "#708090"
+    }
+  ]
+}
